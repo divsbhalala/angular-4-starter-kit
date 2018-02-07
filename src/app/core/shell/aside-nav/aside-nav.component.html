@@ -5,6 +5,10 @@
         <h2>John D.</h2>
     </header>
     <ul>
+        <li tabindex="0" class="menu-app-logo" [ngClass]="{'active': activeState === 'app-logo'}" (click)="setActiveState('app-logo')" ><i class="icon-fullscreen_exit x2"></i><span>Manu Item 1</span></li>
+        <li tabindex="0" class="menu-client-logo" [ngClass]="{'active': activeState === 'client-logo'}" (click)="setActiveState('client-logo')" ><i class="icon-wifi_tethering x2"></i><span>Manu Item 2</span></li>
+        <li tabindex="0" class="menu-user menu-divider-bottom" [ngClass]="{'active': activeState === 'user'}" (click)="setActiveState('user')" ><i class="icon-dashboard x2"></i><span>Manu Item 3</span></li>
+
         <li tabindex="0" class="menu-orange" [ngClass]="{'active': activeState === 'dashboard1'}" (click)="setActiveState('dashboard1')" ><i class="icon-fullscreen_exit x2"></i><span>Manu Item 1</span></li>
         <li tabindex="0" class="menu-yellow" [ngClass]="{'active': activeState === 'dashboard2'}" (click)="setActiveState('dashboard2')" ><i class="icon-wifi_tethering x2"></i><span>Manu Item 2</span></li>
         <li tabindex="0" class="menu-off-green" [ngClass]="{'active': activeState === 'dashboard3'}" (click)="setActiveState('dashboard3')" ><i class="icon-dashboard x2"></i><span>Manu Item 3</span></li>
@@ -14,6 +18,7 @@
         <li tabindex="0" class="menu-purple" [ngClass]="{'active': activeState === 'dashboard7'}" (click)="setActiveState('dashboard7')" ><i class="icon-info_outline x2"></i><span>Manu Item 7</span></li>
         <li tabindex="0" class="menu-purple-2" [ngClass]="{'active': activeState === 'dashboard8'}" (click)="setActiveState('dashboard8')" ><i class="icon-info_outline x2"></i><span>Manu Item 8</span></li>
         <li tabindex="0" class="menu-pink" [ngClass]="{'active': activeState === 'dashboard9'}" (click)="setActiveState('dashboard9')" ><i class="icon-info_outline x2"></i><span>Manu Item 9</span></li>
-        <li tabindex="0" class="menu-gray" [ngClass]="{'active': activeState === 'dashboard10'}" (click)="setActiveState('dashboard10')" ><i class="icon-info_outline x2"></i><span>Manu Item 10</span></li>
+        <li tabindex="0" class="menu-white menu-divider-top" [ngClass]="{'active': activeState === 'dashboard10'}" (click)="setActiveState('dashboard10')" ><i class="icon-info_outline x2"></i><span>Manu Item 10</span></li>
+        <li tabindex="0" class="menu-white" [ngClass]="{'active': activeState === 'dashboard11'}" (click)="setActiveState('dashboard11')" ><i class="icon-info_outline x2"></i><span>Manu Item 10</span></li>
     </ul>
 </nav>

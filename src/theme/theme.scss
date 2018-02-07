@@ -111,9 +111,36 @@
 }
 
 /*MENU ITEM COLOR*/
+.menu-app-logo{
+  color: #FFFFFF;
+  background-color: #343a40;
+  &.active, &.focus{
+    color: #868e96;
+    background-color: #343a40;
+  }
+}
+.menu-client-logo{
+  color: #868e96;
+  background-color: #FFFFFF;
+  &.active, &.focus{
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+}
+.menu-user{
+  color: #000000;
+  background-color: rgba(0, 0, 0, 0.1);
+  &.active, &.focus{
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
 .menu-red{
   color: #E4003D;
-
+  &.active, &.focus{
+    color: #FFFFFF;
+    background-color: #E4003D;
+  }
 }
 .menu-orange{
   color: #FF631C;
@@ -177,9 +204,23 @@
     background-color: #DADADA;
   }
 }
+.menu-white{
+  color: #DADADA;
+  background-color: #fff;
+  &.active, &.focus{
+    color: #fff;
+    background-color: #DADADA;
+  }
+}
 .smartphone-menu-trigger{
   background-color: #8EC620;
 }
 .hide{
   display: none;
+}
+.menu-divider-bottom{
+  box-shadow: -3px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.menu-divider-top{
+  box-shadow: -3px -5px 3px 0px rgba(0, 0, 0, 0.5);
 }
