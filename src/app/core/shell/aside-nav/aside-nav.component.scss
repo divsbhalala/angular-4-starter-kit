@@ -6,7 +6,7 @@ $menu-width-tablet: 90px;
 $menu-width-smartphone: 230px;
 
 .menu{
-  background:$color-2nd;
+  background: rgba(109, 100, 100, 0.04);
   height:100vh;
   width:$menu-width-desktop;
   position:fixed;
@@ -38,7 +38,6 @@ $menu-width-smartphone: 230px;
     list-style:none;
     padding:0;
     margin:0;
-    background: rgba(109, 100, 100, 0.29);
 
     li{
       padding:0.5em 1em 0.5em 1.5em;
@@ -140,6 +139,7 @@ main{
         &:hover{
           span{
             opacity:1;
+            white-space: nowrap;
             transform:translate3d(0px,-50%, 0);
           }
         }

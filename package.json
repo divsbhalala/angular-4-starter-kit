@@ -1,5 +1,5 @@
 {
-  "name": "ng-x-rocket",
+  "name": "angular-4-starter-kit",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,6 @@
     "test": "ng test",
     "test:ci": "npm run lint -s && ng test --single-run --code-coverage",
     "e2e": "npm run env -s && ng e2e",
-    "translations:extract": "ngx-translate-extract --input ./src --output ./src/translations/template.json --format=json --clean -sort --marker extract",
-    "docs": "hads ./docs -o",
-    "env": "ngx-scripts env npm_package_version",
     "generate": "ng generate"
   },
   "dependencies": {
@@ -25,8 +22,6 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
-    "@ngx-translate/core": "^9.0.1",
-    "@angular/service-worker": "^5.2.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0-beta.9",
     "bootstrap": "4.0.0",
     "font-awesome": "^4.7.0",
@@ -38,8 +33,6 @@
   "devDependencies": {
     "@angular/cli": "~1.6.5",
     "@angular/compiler-cli": "^5.2.0",
-    "@angular/language-service": "^5.2.0",
-    "@biesbjerg/ngx-translate-extract": "^2.3.1",
     "@ngx-rocket/scripts": "^2.0.0",
     "@types/jasmine": "^2.5.52",
     "@types/jasminewd2": "^2.0.2",
