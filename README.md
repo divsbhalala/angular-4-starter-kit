@@ -1,4 +1,4 @@
-# ngX Starter Kit
+# ng-bs-redux-boilerplate 
 
 Web project starter kit including modern tools and workflow based on
 [angular-cli](https://github.com/angular/angular-cli), best practices from the community, a scalable base template and
@@ -55,19 +55,3 @@ You should not use `ng serve` directly, as it does not use the backend proxy con
 - [RxJS](http://reactivex.io/rxjs)
 - [ng-bootsrap](https://ng-bootstrap.github.io/)
 - [Lodash](https://lodash.com)
-
-#### Coding guides
-
-- [Angular](docs/coding-guides/angular.md)
-- [TypeScript](docs/coding-guides/typescript.md)
-- [Sass](docs/coding-guides/sass.md)
-- [HTML](docs/coding-guides/html.md)
-- [Unit tests](docs/coding-guides/unit-tests.md)
-- [End-to-end tests](docs/coding-guides/e2e-tests.md)
-
-#### Other documentation
-
-- [Working behind a corporate proxy](docs/corporate-proxy.md)
-- [Updating dependencies and tools](docs/updating.md)
-- [Using a backend proxy for development](docs/backend-proxy.md)
-- [Browser routing](docs/routing.md)

@@ -1,6 +1,6 @@
 {
-  "name": "ngX-Rocket",
-  "short_name": "ngX-Rocket",
+  "name": "ng-bs-redux",
+  "short_name": "ng-bs-redux",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
